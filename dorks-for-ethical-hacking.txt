@@ -1,0 +1,44 @@
+site:example.com intitle:"index of /" -"Parent Directory"
+site:example.com ext:pdf intitle:"Confidential" OR intitle:"Sensitive"
+site:example.com inurl:wp-content/uploads filetype:pdf
+site:example.com intext:"Username" OR intext:"Password" filetype:log
+site:example.com ext:sql | ext:dbf | ext:mdb
+site:example.com intitle:"index of" inurl:config
+site:example.com intitle:"index of" inurl:backup
+site:example.com intitle:"error_log"
+site:example.com intext:"Powered by WordPress"
+site:example.com intext:"Login" AND "Password"
+site:example.com intext:"Web Server Statistics for"
+site:example.com intitle:"System Statistics" intext:"System and Network Information Center"
+site:example.com intext:"phpinfo()" +"mysql.default_password"
+site:example.com inurl:/wp-json/wp/v2/users/
+site:example.com intitle:"index of" inurl:wp-config.php
+site:example.com inurl:/robots.txt
+site:example.com intitle:index.of.config
+site:example.com intitle:"index of" inurl:admin
+site:example.com intitle:"index of" inurl:backup
+site:example.com intext:"Welcome to phpMyAdmin"
+site:example.com intitle:"index of" inurl:ftp
+site:example.com intext:"index of /" "modified"
+site:example.com intitle:"Index of /" +.htpasswd
+site:example.com intitle:"Index of /" +.ssh
+site:example.com intitle:"login" OR intitle:"sign in" OR intitle:"log in" -site:secure.example.com
+site:example.com intitle:"index of" inurl:backup OR inurl:backups
+site:example.com intext:"powered by WordPress" OR intext:"powered by Joomla" OR intext:"powered by Drupal"
+site:example.com inurl:/admin OR inurl:/administrator OR inurl:/login OR inurl:/wp-login.php
+site:example.com intitle:"remote desktop web client"
+site:example.com intitle:"webcamXP 5"
+site:example.com intitle:"login" "Remember Me"
+site:example.com inurl:/phpmyadmin OR inurl:/adminer OR inurl:/dbadmin
+site:example.com ext:sql | ext:dbf | ext:mdb | ext:log
+site:example.com intitle:"index of" inurl:config OR inurl:conf OR inurl:configuration
+site:example.com intitle:"index of" inurl:.ssh OR inurl:ssh2 OR inurl:known_hosts
+site:example.com intitle:"index of" inurl:.git OR inurl:gitignore OR inurl:gitconfig
+site:example.com intitle:"index of" inurl:password OR inurl:passwd OR inurl:credentials
+site:example.com inurl:/robots.txt
+site:example.com intext:"admin" OR intext:"root" OR intext:"superuser"
+site:example.com intext:"phpinfo()" +"mysql.default_password"
+site:example.com intitle:"index of" inurl:.vscode OR inurl:.idea
+site:example.com inurl:/wp-json/wp/v2/users/
+site:example.com intitle:"index of" inurl:ftp OR inurl:ftpd
+site:example.com intitle:"Index of /" +.htpasswd OR +.htaccess
